@@ -1,0 +1,173 @@
+/*Mammals*/
+#header-mammals{
+background-color: #accc4c;
+    min-height: 600px;
+    background-image: url('mammals border.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: left bottom;
+}
+
+.hero-mammals{
+color: white;
+    text-align: center;
+    padding: 10px 50px 0 50px;
+    margin-bottom: 0;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.hero-mammals h1{
+font-size: 48px;
+    color: yellow;
+    position: top center;
+    text-shadow: 2px 2px 4px black;
+}
+
+.heroText-mammals p{
+font-size: 36px;
+    margin: 10px 50px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+/*Mammal Facts*/
+#about-mammals{
+background-color: #845c50;
+    padding: 10px;
+    text-align: center;
+}
+.aboutM h1{
+    border: solid;
+    font-size: 60px;
+}
+.facts{
+    list-style-type: none;
+}
+.facts li{
+    color: white;
+    gap: 20px;
+    row-gap: 40px;
+    margin: 40px;
+    text-align: center ;
+    font-size: 24px;
+}
+/*Mammal species*/
+#The-mammals{
+    background-image: linear-gradient(#FFE0AB, #FFE0AB, #679748);
+    padding: 30px;
+    margin: 0px;
+    min-height: auto;
+}
+.mammals .topic h2{
+    color: 	#d9d9da;
+    text-align: center;
+    text-shadow: 5px 5px 5px #000000;
+    margin: 20px;
+    padding: 20px;
+    font-size: 50px;
+    font-family: monospace;
+}
+.mammals .topic p{
+    color: 	#679748;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+/*Mammals References*/
+#mammal-References{
+   background-color: #679748;
+   padding: 24px;
+   
+}
+.ref-Topic h2{
+    font-size: 48px;
+    text-align: center;
+}
+.ref-Links li{
+    margin: 20px;
+    font-size: 24px;
+}
+.ref-Links li a{
+    color: bisque ;
+    text-decoration: none;
+}
+.ref-Links li a:hover{
+    color: black;
+    font-size: 24px;
+}
+
+/*Other Exhibits*/
+#Other-Exhibits{
+    padding: 30px;
+    background-image: linear-gradient(#679748,#77AABB);
+}
+.other h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+.exhibit-card{
+    position: relative;
+    overflow: hidden;
+    border-radius: 70% 30% 30% 70%/ 60% 40% 60% 40% ;
+    background-color: transparent;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-container{
+    position: relative;
+}
+
+.image-container img{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.exhibit-name{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    transition: transform 0.3s ease;
+}
+.exhibit-card:hover .exhibit-name{
+    transform: translateY(-10px);
+}
+
+.exhibit-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.exhibit-card a{
+    text-decoration: none;
+    color: inherit;
+}
+

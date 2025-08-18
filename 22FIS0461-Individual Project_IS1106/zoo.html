@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>Virtual Zoo</title>
+        <link rel="stylesheet" href="zoo.css">
+        <link rel="stylesheet" href="common.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="nav">
+                <div class="logo">V-zoo</div>
+                <ul class="nav-ul">
+                    <li><a href="#home">Home</a></li> 
+                    <li><a href="#exhibits">Exhibits</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#missions">Mission</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                </ul>     
+            </nav>
+            
+            <div class="hero">
+                <h1>Welcome to Virtual zoo</h1>
+                <p>Discover the wildlife around the world online.</p>
+            </div>        
+        </header>
+       
+        <section id="exhibits">
+            <h2>Our Exhibits</h2>
+            <div class="exhibit-grid">
+                <div class="exhibit-card">
+                    <a href="Oceanarium.html">
+                        <div class="image-container">
+                            <img src="oceanarium.jpg" alt="Oceanarium">
+                            <h3>Oceanarium</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="exhibit-card">
+                    <a href="Birds.html">
+                        <div class="image-container">
+                            <img src="birds.jpg" alt="Birds">
+                            <h3>Birds' Paradise</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="exhibit-card">
+                    <a href="Primates.html">
+                        <div class="image-container">
+                            <img src="primates.jpg" alt="Primate Kingdom">
+                            <h3>Primate Kingdom</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="exhibit-card">
+                    <a href="Mammals.html">
+                        <div class="image-container">
+                            <img src="mammals.jpg" alt="Kingdom Mammals">
+                            <h3>Mammal World</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="exhibit-card">
+                    <a href="RepTopia.html">
+                        <div class="image-container">
+                            <img src="reptopia.jpg" alt="Reptopia">
+                            <h3>RepTopia</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>     
+        </section>
+
+        <hr>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to the Virtual Zoo!<br> 
+                Wanna visit the zoo, but can't go to the zoo in the moment?<br>
+                Don't worry. Discover amazing animals online.<br>
+                Currently we have five exhibits. They are Oceanarium, Birds' Paradise, Primates Kingdom, Mammals world and RepTopia.<br>
+                You can visit our exhibits and gain some knowledge about them.<br></p>       
+        </section>
+        
+        <hr>
+        <section id="missions">
+            <h2>Our mission</h2>
+            <p>Our zoo aims to educate visitors about animals in different exhibits.</p>
+        </section>
+
+        <hr>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <h3>Fill this form, if you want to contact us.</h3>
+            <form action="contact.html" method="post">
+                <div class="form-group">
+                    <label for="name">Name : </label>
+                    <input type="text" id="name" name="name" required>
+                </div> 
+                <div class="form-group">
+                    <label for="email">E-Mail : </label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group"></div>
+                    <label for="message">Message : </label>
+                    <input type="message" id="message" name="message" required>
+            </br></br>
+                <div class="form-group">                        
+                    <button type="submit">Send Message</button>
+                </div>                
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Virtual Zoo. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
